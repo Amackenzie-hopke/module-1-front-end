@@ -1,0 +1,98 @@
+<!--
+    --DOCTYPE Declaration 
+    Specifies the document type and version of HTML.--
+        <!DOCTYPE html>
+
+    --HTML Element
+    The root element that wraps the entire content. --
+        <html lang="en"></html>
+
+    --Head Element
+    Contains meta-information about the document. --
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>Document Title</title>
+        </head>
+    --Body Element
+    Contains the content of the document.--
+
+        <body>
+            Content goes here
+            AMERICA YA!! :D
+        </body>
+-->
+<!--Bringing It All Together
+A basic HTML document structure.-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document Title</title>
+    </head>
+    <body>
+        <!-- Content goes here -->
+    </body>
+</html>
+
+<!--Headings
+Ranging from <h1> (most important) to <h6> (least important).
+-->
+<h1>This is a heading 1</h1>
+
+<!--Paragraphs
+Represented by the <p> tag. -->
+<p>This is a paragraph.</p>
+
+<!--Links
+Use the <a> tag.
+-->
+<a href="https://www.example.com">Visit Example</a>
+
+<!--Lists
+Can be ordered (<ol>) or unordered (<ul>).
+-->
+<ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+</ul>
+<!--Images
+Use the <img> tag with src and alt attributes.
+-->
+<img src="image.jpg" alt="Description of Image" />
+
+<!--Audio
+Embed audio content with the <audio> tag.
+-->
+<audio controls>
+    <source src="audio.ogg" type="audio/ogg" />
+    <source src="audio.mp3" type="audio/mpeg" />
+</audio>
+
+<!--Video
+Embed video content with the <video> tag.
+-->
+<video width="320" height="240" controls>
+    <source src="movie.mp4" type="video/mp4" />
+</video>
+
+<!-- HTML Tables
+Back to Table of Contents
+To structure data, you can use the <table>, <tr>, <th>, and <td> elements.
+-->
+<table>
+    <tr>
+        <th>Header 1</th>
+        <th>Header 2</th>
+    </tr>
+    <tr>
+        <td>Data 1</td>
+        <td>Data 2</td>
+    </tr>
+</table>
+
+<!--Metadata and SEO
+Back to Table of Contents
+Meta Descriptions: Provide a short description of the content of the page, important for search engines.-->
+<meta name="description" content="Description of your website's content" />
